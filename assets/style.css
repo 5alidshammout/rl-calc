@@ -6,26 +6,24 @@ body {
 }
 
 input[type="submit"], [type="button"], [type="reset"] {
-  width: 80px;
-  height: 50px;
+  width: 10vw;
+  height: 10vh;
   border: 1px solid black;
   outline: none;
-  font-size: 30px;
+  font-size: 5vw;
   color: black;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
   font-family: 'Passion One', cursive;
   background-color: #8D6A0E;
   border-radius: 0.5em;
 }
 
 input[type="text"] {
-  padding-left: 1vw;
-  width: 248;
-  height: 50px;
+  padding-left: 2.5vw;
+  width: 31vw;
+  height: 10vh;
   border: 1px solid black;
   outline: none;
-  font-size: 30px;
+  font-size: 5vw;
   color: black;
   font-family: 'Passion One', cursive;
   background-color: #8D6A0E;
