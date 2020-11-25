@@ -10,7 +10,7 @@ input[type="submit"], [type="button"], [type="reset"] {
   height: 10vh;
   border: 1px solid black;
   outline: none;
-  font-size: clamp(3rem, 10vw, 2rem); 
+  font-size: clamp(3vw, 10vw, 5vw);
   color: black;
   font-family: 'Passion One', cursive;
   background-color: #8D6A0E;
@@ -23,7 +23,7 @@ input[type="text"] {
   height: 10vh;
   border: 1px solid black;
   outline: none;
-  font-size: clamp(3rem, 10vw, 2rem);
+  font-size: clamp(3vw, 10vw, 5vw);
   color: black;
   font-family: 'Passion One', cursive;
   background-color: #8D6A0E;
