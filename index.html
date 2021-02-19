@@ -3,21 +3,16 @@
    <head>
 		<link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
 		<title>Calculator</title>	
-		<link rel="stylesheet" type="" href="assets/style.css">
-		<script type="text/javascript" src="assets/script.js"></script>
+		<link rel="stylesheet" type="" href="./assets/style.css">
 		<link rel="icon" href="https://www.shareicon.net/data/2016/09/05/825579_tool_512x512.png">
    </head> 
-   <!-- create table -->
    <body id="body"> 
       <table> 
          <tr> 
             <td colspan="3"><input type="text" id="result" readonly/></td> 
-            <!-- clr() function will call clr to clear all value -->
             <td><input type="button" value="c" onclick="clr()"/> </td> 
          </tr> 
          <tr> 
-            <!-- create button and assign value to each button -->
-            <!-- dis("1") will call function dis to display value -->
             <td><input type="button" value="1" onclick="dis('1')"/> </td> 
             <td><input type="button" value="2" onclick="dis('2')"/> </td> 
             <td><input type="button" value="3" onclick="dis('3')"/> </td> 
@@ -38,10 +33,11 @@
          <tr> 
             <td><input type="button" value="." onclick="dis('.')"/> </td> 
             <td><input type="button" value="0" onclick="dis('0')"/> </td> 
-            <!-- solve function call function solve to evaluate value -->
             <td><input type="button" value="=" onclick="solve()"/> </td> 
             <td><input type="button" value="*" onclick="dis('*')"/> </td> 
 		</tr> 
 		</table> 
+
+      <script src="./assets/script.js"></script>
    </body> 
 </html>  

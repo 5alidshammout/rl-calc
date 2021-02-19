@@ -1,7 +1,7 @@
 body {
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("img.jpg");
+  background-image: url("./img.jpg");
   background-position: center;
 }
 
@@ -36,4 +36,15 @@ table {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+::-ms-input-placeholder {
+  color: #808080b7;
+}
+:-ms-input-placeholder {
+  color: #808080b7;
+}
+::placeholder {
+  color: #808080b7;
+  opacity: 1;
 }

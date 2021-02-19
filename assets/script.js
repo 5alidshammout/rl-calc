@@ -1,20 +1,24 @@
+const rslt = document.querySelector("#result")
 
-         //function that display value 
-         function dis(val) 
-         { 
-             document.getElementById("result").value+=val 
-         } 
-           
-         //function that evaluates the digit and return result 
-         function solve() 
-         { 
-             let x = document.getElementById("result").value 
-             let y = eval(x) 
-             document.getElementById("result").value = y 
-         } 
-           
-         //function that clear the display 
-         function clr() 
-         { 
-             document.getElementById("result").value = "" 
-         }
+function dis(val) {
+    rslt.value += val;
+}
+function solve() {
+    let x = rslt.value;
+    let y = eval(x)
+    rslt.value = y;
+    if(rslt.value == "0"){
+
+    }else if(rslt.value / rslt.value == 1){
+
+    }else{
+        rslt.placeholder = rslt.value;
+        clr();
+        setTimeout(() => {
+            rslt.placeholder = ""
+        }, 3000);
+    }
+}
+function clr() {
+    rslt.value = "";
+}
