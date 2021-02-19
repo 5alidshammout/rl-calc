@@ -2,6 +2,7 @@ const rslt = document.querySelector("#result")
 
 function dis(val) {
     rslt.value += val;
+    rslt.placeholder = ""
 }
 function solve() {
     let x = rslt.value;
